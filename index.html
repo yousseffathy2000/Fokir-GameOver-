@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Over</title>
+        <!-- Animation CSS File-->
+        <link rel="stylesheet" href="stylesheet/animation.css">
+        <!-- Font Awesome CSS File-->
+        <link rel="stylesheet" href="stylesheet/all.min.css">
+        <!-- Bootstrap Icons CSS File-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- Bootstrap CSS File-->
+        <link rel="stylesheet" href="stylesheet/bootstrap.min.css">
+        <!-- Main CSS File-->
+        <link rel="stylesheet" href="stylesheet/style.css">
+        <!-- Media CSS File-->
+        <link rel="stylesheet" href="stylesheet/media.css">
+        <!-- Animation Library CSS File-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+<body class="position-relative">
+    <div class="spinner d-flex justify-content-center align-items-center vh-100 w-100 position-fixed" id="spinner">
+        <span class="loader"></span>
+    </div>
+    <section id="games" class="">
+        <header>
+            <img src="images/wraper.png" class="w-100" alt="Game Wraper">
+        </header>
+        <nav class="navbar navbar-expand-lg col-md-6 col-lg-9 m-auto rounded-4 shadow px-1 z-3 position-relative">
+            <div class="container">
+                <h5 class="navbar-brand d-flex justify-content-center align-items-center text-uppercase text-light" href="#">
+                    <img src="images/logo-sm.png" alt="Logo" class="d-inline-block align-text-top me-2">
+                    Game Reviews
+                </h5>            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-uppercase" aria-current="page" href="#">mmorpg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">shooter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">sailing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">permadeath</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">superhero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">pixel</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="game-cards my-5">
+            <div class="container">
+                <div class="row g-4" id="cards-row">
+                    <!-- <div class="col-12 col-md-6 col-lg-4 col-xl-3" id = "card-details">
+                        <div class="inner w-100 h-100">
+                            <div class="card bg-transparent text-light">
+                                <figure class="pt-3 px-3">
+                                    <img src="images/thumbnail.jpg" class="card-img-top" alt="...">
+                                </figure>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h3 class="">Tarisland</h3>
+                                        <span class="badge badge2">Free</span>
+                                    </div>
+                                    <p class="card-text mt-2 text-center">A,cross-platform,MMORPG,developed,by,Level,Infinite,and</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between small">
+                                    <span class="badge text-bg-secondary">MMORPG</span>
+                                    <span class="badge text-bg-secondary">PC (Windows)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="game-details" class="">
+        <!-- <div class="container">
+            <div class="row pt-3 gy-4">
+                <div class="inner d-flex justify-content-between align-items-center">
+                    <h1 class="side-tittle col-6 text-white">Details Game</h1>
+                    <button type="button" class="btn-close btn-close-white col-6" aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-md-4">
+                    <div class="inner">
+                        <img src="images/thumbnail.jpg" class="w-100" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="inner">
+                        <h3 class="text-light">Title: Neverwinter</h3>
+                        <p class="text-light">Category: <span class="badge text-bg-info"> MMORPG</span> </p>
+                        <p class="text-light">Platform: <span class="badge text-bg-info"> Windows</span> </p>
+                        <p class="text-light">Status: <span class="badge text-bg-info"> Live</span> </p>
+                        <p class="paragraph-details text-light">If you’re a fan of Dungeons and Dragons, have I got a game for you! Neverwinter, developed by Cryptic Studios and published by Perfect World Entertainment, is based on the critically acclaimed fantasy role playing game and the best part is ­ it’s free to play. In the world of Neverwinter, you will explore and defend one of the most beloved cities from the Dungeons and Dragons Forgotten Realms Campaign Setting, as it rises from the ashes of total destruction. In this totally immersive MMORPG you will go from the besieged walls of the city, to the subterranean passageways and search for forgotten secrets and lost treasure along the way. Neverwinter is completely free to play, from the very first level, all the way up to the level cap, so anyone is able to experience the engaging action and combat it brings. You don’t have to worry about tab­targeting or auto­attacking to defeat your enemies, Neverwinter provides an amazing combat experience where every action will require planning and feel visceral and look spectacular. Neverwinter also comes with Foundry, which is a dynamic tool set that will provide you with the game assets and a sandbox environment that will allow you to create your own adventures ­ and when you are ready to unveil your creation to the world ­ you are able to hook it up directly to the existing work so everyone else in the community can experience it as well! Whether you are familiar with Dungeons and Dragons from the tabletop game or from the novels, Neverwinter has recreated many of the iconic classes, locations and encounters that you will know and love! You might choose to go on an adventure as a mighty Guardian Fighter, choose to deceive foes as a Trickster Rogue, or follow the righteous path as a Devoted Cleric, but whatever journey you decide to take in Neverwinter you will face Kobolds, Beholders, Mimics and many other creatures from the Dungeons and Dragons universe, and you will surely feel right at home!</p>
+                        <button type="button" class="btn btn-outline-warning text-light">Show Game</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+</body>
+<!-- Main JS File-->
+<script src="js/index.js" type="module"></script>
+<!-- Bootstrap JS File-->
+<script src="js/bootstrap.bundle.js"></script>
+<!-- Sweet Alert JS File-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
